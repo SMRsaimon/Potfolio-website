@@ -46,3 +46,10 @@ p{
     position: relative;
     top: 22px;
 }
+#section2{
+    margin-top: 130px ;
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    height: 502px;
+}
