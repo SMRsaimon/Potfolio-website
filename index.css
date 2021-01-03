@@ -1,0 +1,48 @@
+body{
+    margin: 0px ;
+    padding: 0px ;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+#section1{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    height: 502px;
+}
+
+.half-developer{
+    width: 40%;
+    float: left;
+    margin-left: 130px ;
+}
+.text-area{
+    
+}
+h1{
+    font-size: 50px;
+}
+h3{
+    font-size: 25px;
+}
+span{
+    color: rgb(238, 22, 123);
+}
+
+.img{
+    width: 100%;
+    margin-top: -53px;
+    height: 90%;
+}
+p{
+    color: gray;
+}
+.button{
+    text-decoration: none;
+    padding: 10px 30px ;
+    background-image: linear-gradient(45deg, rgb(56, 16, 235), rgb(236, 8, 160));
+    color: white;
+    font-weight: 700;
+    position: relative;
+    top: 22px;
+}
