@@ -1,24 +1,16 @@
+
+
+/* body  */
+
 body{
     margin: 0px ;
     padding: 0px ;
     font-family: 'Roboto Condensed', sans-serif;
 }
 
-#section1{
-    background-image: url(images/top-banner.png);
-    background-repeat: no-repeat;
-    background-position: left;
-    height: 502px;
-}
+/* global section  */
 
-.half-developer{
-    width: 40%;
-    float: left;
-    margin-left: 130px ;
-}
-.text-area{
-    
-}
+
 h1{
     font-size: 50px;
 }
@@ -29,27 +21,112 @@ span{
     color: rgb(238, 22, 123);
 }
 
-.img{
-    width: 100%;
-    margin-top: -53px;
-    height: 90%;
-}
 p{
     color: gray;
 }
+
 .button{
-    text-decoration: none;
-    padding: 10px 30px ;
-    background-image: linear-gradient(45deg, rgb(56, 16, 235), rgb(236, 8, 160));
-    color: white;
+    top: 22px;
+    color:white;
     font-weight: 700;
     position: relative;
-    top: 22px;
+    padding: 10px 30px;
+    text-decoration: none;
+    background-image: linear-gradient(45deg, rgb(56, 16, 235), rgb(236, 8, 160));
 }
-#section2{
-    margin-top: 130px ;
-    background-image: url(images/dream-bg.png);
-    background-repeat: no-repeat;
-    background-position: right;
+
+/*  global section End  */
+
+
+
+/* section-1 start  */
+
+#section1{
+   
     height: 502px;
+    background-position:left;
+    background-repeat:no-repeat;
+    background-image: url(images/top-banner.png);
+    
 }
+
+.half-developer{
+    width:40%;
+    float: left;
+    margin-left: 130px ;
+}
+
+
+.img{
+    width:100%;
+    height: 90%;
+    margin-top: -53px;
+}
+
+
+
+
+/* section-2 start  */
+
+#section2{
+    height: 502px;
+    margin-top:130px;
+    margin-bottom: 100px;
+    background-position:right;
+    background-repeat: no-repeat;
+    background-image: url(images/dream-bg.png);
+}
+
+
+
+/*  Experience section start  */
+
+
+
+#section3{
+    height: 600px;
+    margin-top: 100px ;
+    background-position: left;
+    background-repeat: no-repeat;
+    background-image: url(images/exp-bg.png);
+}
+#section3 .half-developer{
+
+    width: 43%;
+    height:  70%;
+    padding: 10px 30px;
+    border-radius:   5px;
+    box-sizing: border-box;
+    box-shadow: 10px 10px 40px grey;
+    background-color: rgb(253, 253, 253);
+}
+
+
+.left-contant{
+   
+    margin-left: 100px;
+    border-image-slice:1;
+    border-left: 7px  solid;
+    border-image: linear-gradient(180deg, lightSalmon, tomato);
+}
+.right-contant{
+
+    margin-left: 75px;
+    border-image-slice:1;
+    border-left: 7px  solid;
+    border-image: linear-gradient(180deg, rgb(59, 19, 235), rgb(241, 14, 101));
+}
+
+
+
+
+/* footer section  */
+
+
+
+.footer{
+    text-align: center;
+}
+
+
+/* -------End------ */
